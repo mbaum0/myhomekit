@@ -13,6 +13,7 @@
 		4C8B598427349AEC00CD823F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B598327349AEC00CD823F /* Preview Assets.xcassets */; };
 		4C8B598E2734A72E00CD823F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B598D2734A72E00CD823F /* Device.swift */; };
 		4C8B59902734A75200CD823F /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B598F2734A75200CD823F /* DeviceViewModel.swift */; };
+		4C8B59922734B72A00CD823F /* Shelly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B59912734B72A00CD823F /* Shelly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		4C8B598327349AEC00CD823F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C8B598D2734A72E00CD823F /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		4C8B598F2734A75200CD823F /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		4C8B59912734B72A00CD823F /* Shelly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelly.swift; sourceTree = "<group>"; };
+		4C8B59932734B87700CD823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 		4C8B597B27349AEB00CD823F /* MyHomeKit */ = {
 			isa = PBXGroup;
 			children = (
+				4C8B59932734B87700CD823F /* Info.plist */,
 				4C8B597C27349AEB00CD823F /* MyHomeKitApp.swift */,
 				4C8B598C27349C8500CD823F /* Models */,
 				4C8B598B27349C7F00CD823F /* ViewModels */,
@@ -93,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4C8B598D2734A72E00CD823F /* Device.swift */,
+				4C8B59912734B72A00CD823F /* Shelly.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				4C8B597F27349AEB00CD823F /* HomeView.swift in Sources */,
 				4C8B597D27349AEB00CD823F /* MyHomeKitApp.swift in Sources */,
 				4C8B598E2734A72E00CD823F /* Device.swift in Sources */,
+				4C8B59922734B72A00CD823F /* Shelly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				DEVELOPMENT_TEAM = 8FNYG465UM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyHomeKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,6 +340,7 @@
 				DEVELOPMENT_TEAM = 8FNYG465UM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyHomeKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
