@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct MyHomeKitApp: App {
+    let vm = DeviceViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(model: vm)
         }
     }
 }

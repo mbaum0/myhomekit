@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4C8B597D27349AEB00CD823F /* MyHomeKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B597C27349AEB00CD823F /* MyHomeKitApp.swift */; };
-		4C8B597F27349AEB00CD823F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B597E27349AEB00CD823F /* ContentView.swift */; };
+		4C8B597F27349AEB00CD823F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B597E27349AEB00CD823F /* HomeView.swift */; };
 		4C8B598127349AEC00CD823F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B598027349AEC00CD823F /* Assets.xcassets */; };
 		4C8B598427349AEC00CD823F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B598327349AEC00CD823F /* Preview Assets.xcassets */; };
+		4C8B598E2734A72E00CD823F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B598D2734A72E00CD823F /* Device.swift */; };
+		4C8B59902734A75200CD823F /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B598F2734A75200CD823F /* DeviceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C8B597927349AEB00CD823F /* MyHomeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHomeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8B597C27349AEB00CD823F /* MyHomeKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeKitApp.swift; sourceTree = "<group>"; };
-		4C8B597E27349AEB00CD823F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C8B597E27349AEB00CD823F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4C8B598027349AEC00CD823F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C8B598327349AEC00CD823F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C8B598D2734A72E00CD823F /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		4C8B598F2734A75200CD823F /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				4C8B597C27349AEB00CD823F /* MyHomeKitApp.swift */,
-				4C8B597E27349AEB00CD823F /* ContentView.swift */,
+				4C8B598C27349C8500CD823F /* Models */,
+				4C8B598B27349C7F00CD823F /* ViewModels */,
+				4C8B598A27349C7B00CD823F /* Views */,
 				4C8B598027349AEC00CD823F /* Assets.xcassets */,
 				4C8B598227349AEC00CD823F /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				4C8B598327349AEC00CD823F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C8B598A27349C7B00CD823F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B597E27349AEB00CD823F /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C8B598B27349C7F00CD823F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B598F2734A75200CD823F /* DeviceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4C8B598C27349C8500CD823F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B598D2734A72E00CD823F /* Device.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8B597F27349AEB00CD823F /* ContentView.swift in Sources */,
+				4C8B59902734A75200CD823F /* DeviceViewModel.swift in Sources */,
+				4C8B597F27349AEB00CD823F /* HomeView.swift in Sources */,
 				4C8B597D27349AEB00CD823F /* MyHomeKitApp.swift in Sources */,
+				4C8B598E2734A72E00CD823F /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
